@@ -29,6 +29,7 @@
 body, html {
     height: 100%;
 }
+<<<<<<< HEAD
 .navigation {
    list-style: none; 
    margin-left: auto;
@@ -51,6 +52,8 @@ body, html {
    background: #92d3d3; 
    color: #6b6b6b; 
 }
+=======
+>>>>>>> parent of cd12783... Add menu
 /*--------------------1й круг ада--------------------
                                   Левая кнопка меню
 #button-left{
