@@ -1,0 +1,75 @@
+.menu{
+    background-color: #87cefa;
+    display: block;
+    height: 190px;
+}
+/*--------------------1й круг ада--------------------
+                                  Левая кнопка меню*/
+#button-left{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin: 10% 20%;
+    display: block;
+}
+#button-ul{
+   width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #fca;
+    list-style-type: none;
+    display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+}
+#button-ul li{ 
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fca;
+    display: none;
+}
+#button-left:hover{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fca;
+    transition: 0.3s;
+
+}
+#button-left:hover #button-ul{
+    width: 160px;
+    height: 160px;
+    display: flex;
+        flex-wrap: nowrap;
+}
+.buttons{
+   
+}
+/*--------------------2й круг ада--------------------*/
+#button-right{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin: 10% 20%;
+}
+#button-right:hover{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fca;
+    margin: 10% 20%;
+    transition: 0.3s;
+}
+#header{
+    position: relative;
+}
+#head{
+    padding-top: 2.5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    text-shadow: 5px 3px 8px black;
+    text-align: center;
+}
