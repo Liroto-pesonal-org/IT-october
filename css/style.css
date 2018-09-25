@@ -1,11 +1,4 @@
-﻿.menu{
-    background-color: #87cefa;
-    display: block;
-    height: 190px;
-	position: fixed; 
-	top: 0;
-
-}
+﻿
 
 #button-left{
     width: 80px;
@@ -112,6 +105,11 @@ body, html {
 }*/
 #header{
     position: relative;
+	  background-color: #87cefa;
+    display: block;
+    height: 190px;
+	position: fixed; 
+	top: 0;
 }
 #head{
     padding-top: 1.%;
