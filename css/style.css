@@ -19,6 +19,16 @@
     transition: 0.3s;
     position: absolute;
 }
+    margin: 10% 20%;
+}
+#button-right:hover{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fca;
+    margin: 10% 20%;
+    transition: 0.3s;
+}*
 /*--------------------1й круг ада--------------------
                                   Левая кнопка меню
 #button-left{
@@ -91,7 +101,7 @@
 #h3{
     font-family: 'Roboto Slab', serif;
     font-size: 2em;
-    text-align: left;
+    text-align: center;
     
     
 }
