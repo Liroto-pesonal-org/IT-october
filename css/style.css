@@ -33,7 +33,7 @@ body, html {
    list-style: none; 
 }
 .navigation li {
-   float: left;
+   float: center;
    margin-right: 1px; 
    font-size: 14px; 
 }
