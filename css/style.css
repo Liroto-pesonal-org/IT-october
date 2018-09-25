@@ -1,10 +1,26 @@
 ﻿.menu{
-    background-color: #80D8FF;
+    background-color: #87cefa;
     display: block;
     height: 190px;
 }
+#button-left{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin: 10% 20%;
+    display: block;
+}
+#button-left:hover{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #fca;
+    transition: 0.3s;
+    position: absolute;
+}
 /*--------------------1й круг ада--------------------
-                                  Левая кнопка меню*/
+                                  Левая кнопка меню
 #button-left{
     width: 80px;
     height: 80px;
@@ -47,7 +63,7 @@
 .buttons{
    
 }
-/*--------------------2й круг ада--------------------*/
+
 #button-right{
     width: 80px;
     height: 80px;
@@ -62,7 +78,7 @@
     background-color: #fca;
     margin: 10% 20%;
     transition: 0.3s;
-}
+}*/
 #header{
     position: relative;
 }
