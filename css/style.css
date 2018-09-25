@@ -1,5 +1,5 @@
-﻿html {
-  scroll-behavior: smooth;
+﻿*{
+    margin: 2%;
 }
 .menu{
     background-color: #87cefa;
