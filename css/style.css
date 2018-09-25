@@ -31,6 +31,8 @@ body, html {
 }
 .navigation {
    list-style: none; 
+   margin-left: auto;
+    margin-right: auto;
 }
 .navigation li {
    float: left;
