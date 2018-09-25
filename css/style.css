@@ -3,6 +3,7 @@
     display: block;
     height: 190px;
 }
+
 #button-left{
     width: 80px;
     height: 80px;
@@ -107,7 +108,9 @@ body, html {
     transition: 0.3s;
 }*/
 #header{
-    position: relative;
+	position: fixed; 
+	top: 0;
+	
 }
 #head{
     padding-top: 1.%;
