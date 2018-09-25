@@ -1,4 +1,7 @@
-﻿.menu{
+﻿html {
+  scroll-behavior: smooth;
+}
+.menu{
     background-color: #87cefa;
     display: block;
     height: 190px;
