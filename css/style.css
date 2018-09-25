@@ -2,6 +2,9 @@
     background-color: #87cefa;
     display: block;
     height: 190px;
+	position: fixed; 
+	top: 0;
+
 }
 
 #button-left{
@@ -108,10 +111,7 @@ body, html {
     transition: 0.3s;
 }*/
 #header{
-	position: fixed; 
-	top: 0;
-	height: 190px;
-	
+    position: relative;
 }
 #head{
     padding-top: 1.%;
