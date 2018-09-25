@@ -108,7 +108,7 @@ body, html {
 	  background-color: #87cefa;
     display: block;
     height: 190px;
-	weight: 100%;
+	width: 100%;
 	position: fixed; 
 	top: 0;
 }
