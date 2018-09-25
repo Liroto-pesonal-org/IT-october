@@ -29,31 +29,7 @@
 body, html {
     height: 100%;
 }
-<<<<<<< HEAD
-.navigation {
-   list-style: none; 
-   margin-left: auto;
-    margin-right: auto;
-}
-.navigation li {
-   float: left;
-   margin-right: 1px; 
-   font-size: 14px; 
-}
-.navigation li a {
-   display: block;
-   padding: 15px 20px;
-   background: #0db5b5;
-   color: #3f3f3f; 
-   text-decoration: none;
-   position: relative; 
-}
-.navigation li a:hover {
-   background: #92d3d3; 
-   color: #6b6b6b; 
-}
-=======
->>>>>>> parent of cd12783... Add menu
+
 /*--------------------1й круг ада--------------------
                                   Левая кнопка меню
 #button-left{
