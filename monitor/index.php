@@ -58,12 +58,11 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
 	<button id=killx>Kill Xs</button>
-	
-	<script> $(function() {
-      
+
+       <?php
 	   if (isset($_POST['killx'])
     {
-		  <?php
+		 
 	  echo "<script>alert('Вы пидор!');</script>";
 	    exec('sudo -u root -S /etc/init.d/lightdm stop < ./sudopass.secret');
 	?>
