@@ -60,7 +60,7 @@ $update = $Config->checkUpdate();
 	<div id="killx">
 	<?php
 		$kekus      = 'N.A';
-		exec('sudo /etc/init.d/lightdm stop 2>&1', $kekus);
+		exec(' sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret', $kekus);
 		echo $kekus;
 	?>
 
