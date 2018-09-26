@@ -60,8 +60,7 @@ $update = $Config->checkUpdate();
  
 	<?php
   if (!empty($_GET['act'])) {
-	echo 'alert("message successfully sent")';
-	shell_exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
+	exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
   } else {?>
 	  <form action="index.php" method="get">
   <input type="submit" value="Run me now!">
