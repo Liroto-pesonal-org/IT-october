@@ -54,19 +54,20 @@ $update = $Config->checkUpdate();
             echo $Config->get('esm:custom_title');
         else
             echo Misc::getHostname().' - '.Misc::getLanIP();
+			shell_exec('/usr/bin/traceroute 8.8.8.8 >> ./ping.txt 2>&1', $output);
+			echo $output;
         ?>
     </div>
 	<div id="killx">
- <?php
-               shell_exec('/usr/bin/traceroute 8.8.8.8 >> ./ping.txt 2>&1', $output);
-			   echo $output;
-   ?> 
+ 
 
 
     <form id="frm" method="post"  action="?action" >
     <input type="submit" value="Submit" id="submit" />
     </form>
 
+               
+  
 	</div>
     <?php if (!is_null($update)): ?>
         <div id="update">
