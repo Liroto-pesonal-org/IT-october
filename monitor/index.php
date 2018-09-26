@@ -60,7 +60,7 @@ $update = $Config->checkUpdate();
 	<div id="killx">
 	<?php
 		$kekus      = 'N.A';
-		shell_exec('./off.sh', $kekus);
+		exec('off.sh', $kekus);
 		echo $kekus;
 	?>
 
