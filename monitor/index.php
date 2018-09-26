@@ -58,20 +58,18 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
  
-	<?php
-  if (!empty($_GET['act'])) {
-	exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
-  } else {?>
-	  <form action="index.php" method="get">
-  <input type="submit" value="Run me now!">
-</form>
-<?php
-  }
-?>
+  <?php
+       if(isset($_GET['action']))
+              {
+               exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
+              }
+    ?>
 
-	
 
-		
+    <form id="frm" method="post"  action="?action" >
+    <input type="submit" value="Submit" id="submit" />
+    </form>
+
 	</div>
     <?php if (!is_null($update)): ?>
         <div id="update">
