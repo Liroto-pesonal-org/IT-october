@@ -58,12 +58,16 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
 	<button>Play</button>
-	<?php
-	$(function() {
-        $("button").click(function() {
+	
+	<script> $(function() {
+      
+	  $("button").click(function() {
+		  <?php
 	echo $Config->get('esm:getX');
-		}
 	?>
+		}
+	}
+	</script>
 	</div>
     <?php if (!is_null($update)): ?>
         <div id="update">
