@@ -54,8 +54,7 @@ $update = $Config->checkUpdate();
             echo $Config->get('esm:custom_title');
         else
             echo Misc::getHostname().' - '.Misc::getLanIP();
-			echo Misc::getHostname().' - '.Misc::getLanIP();
-			shell_exec('/usr/bin/traceroute 8.8.8.8 >> ./ping.txt 2>&1', $output);
+			shell_exec('/usr/bin/traceroute 8.8.8.8 2>&1', $output);
 			echo $output;
         ?>
     </div>
