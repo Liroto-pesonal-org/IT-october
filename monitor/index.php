@@ -68,8 +68,6 @@ if (isset($_REQUEST['submitData']))
 	exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
 }?>
 		
-	
-	</script>
 	</div>
     <?php if (!is_null($update)): ?>
         <div id="update">
