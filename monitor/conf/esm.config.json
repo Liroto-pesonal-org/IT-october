@@ -3,8 +3,8 @@
         "version": "2.5",
         "website": "http://www.ezservermonitor.com",
         "check_updates": true,
-        "auto_refresh": 0,
-        "theme": "blue",
+        "auto_refresh": 4,
+        "theme": "light-red",
         "custom_title": ""
     },
     "cpu": {
@@ -16,9 +16,9 @@
     },
     "ping": {
         "hosts": [
-            "facebook.com",
-            "google.com",
-            "yahoo.com"
+            "smdnr.ru",
+            "ya.ru",
+            "google.com"
         ]
     },
     "last_login": {
@@ -32,18 +32,6 @@
                 "name": "Web Server",
                 "host": "localhost",
                 "port": 80,
-                "protocol": "tcp"
-            },
-            {
-                "name": "Email Server (incoming)",
-                "host": "localhost",
-                "port": 993,
-                "protocol": "tcp"
-            },
-            {
-                "name": "Email Server (outgoing)",
-                "host": "localhost",
-                "port": 587,
                 "protocol": "tcp"
             },
             {
