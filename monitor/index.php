@@ -54,8 +54,7 @@ $update = $Config->checkUpdate();
             echo $Config->get('esm:custom_title');
         else
             echo Misc::getHostname().' - '.Misc::getLanIP();
-			exec('cat /sys/class/thermal/thermal_zone0/temp', $t);
-			echo $t;
+			
         ?>
     </div>
 	<div id="killx">
@@ -100,7 +99,8 @@ $update = $Config->checkUpdate();
                     </tr>
                     <tr>
                         <td>OS</td>
-                        <td id="system-os"></td>
+                        <td id="system-os"><?php exec('cat /sys/class/thermal/thermal_zone0/temp', $t);
+			echo $t;?></td>
                     </tr>
                     <tr>
                         <td>Kernel version</td>
