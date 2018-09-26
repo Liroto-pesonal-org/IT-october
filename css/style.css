@@ -99,7 +99,7 @@
     font-size: 2em;
     text-align: left;
 }
-#head_text{
+#head-text{
     margin-left: 2.5%;
 }
 #h3{
@@ -111,3 +111,8 @@
      margin-left: 0.5%;
      margin-right: 0.2%;
  }
+#main-body{
+    width:60%;
+    position: fixed;
+    margin-left: 20%
+}
