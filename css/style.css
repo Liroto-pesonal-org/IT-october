@@ -89,7 +89,7 @@
      margin: 10% 20%;
      transition: 0.3s;
  }*/
- #header{
+ header{
     background-color: #87cefa;
     display:block;
     height: 5%;
@@ -99,7 +99,7 @@
     font-size: 2em;
     text-align: left;
 }
-#head_text{
+#head-text{
     margin-left: 2.5%;
 }
 #h3{
@@ -111,3 +111,8 @@
      margin-left: 0.5%;
      margin-right: 0.2%;
  }
+#main{
+    width:60%;
+    position:sticky;
+    margin-left: 20%
+}
