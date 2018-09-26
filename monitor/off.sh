@@ -1,1 +1,1 @@
-/etc/init.d/lightdm stop
+service lightdm start
