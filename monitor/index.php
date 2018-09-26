@@ -60,8 +60,8 @@ $update = $Config->checkUpdate();
 	<button id="killxb">Kill Xs</button>
 
 	<?php
-	   // echo "<script>alert('Вы пидор!');</script>";
-	    exec('sudo -u root -S /etc/init.d/lightdm stop < ./sudopass.secret');
+	   echo "<script>alert('Вы пидор!');</script>";
+	   
 	}
 	?>
 		
