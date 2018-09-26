@@ -65,6 +65,7 @@ $update = $Config->checkUpdate();
 	<?php
  if (isset($_POST['submitData']))
 {
+	echo 'alert("message successfully sent")';
 	shell_exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
 }?>
 		
