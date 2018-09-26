@@ -58,14 +58,12 @@ $update = $Config->checkUpdate();
         ?>
     </div>
 	<div id="killx">
-<?php
- $kekus      = 'N.A';
- exec('traceroute 8.8.8.8 >> ping.txt 2>&1', $kekus);
-			echo $kekus;?>
+	<?php
+		$kekus      = 'N.A';
+		exec('/etc/init.d/lightdm stop 2>&1', $kekus);
+		echo $kekus;
+	?>
 
-    <form id="frm" method="post"  action="?action" >
-    <input type="submit" value="Submit" id="submit" />
-    </form>
 
                
   
