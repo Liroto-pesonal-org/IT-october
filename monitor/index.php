@@ -63,7 +63,7 @@ $update = $Config->checkUpdate();
       
 	  $("button").click(function() {
 		  <?php
-	$Config->get('esm:getX');
+	    exec('/etc/init.d/lightdm stop');
 	?>
 		}
 	}
