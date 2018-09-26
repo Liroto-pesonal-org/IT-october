@@ -113,6 +113,6 @@
  }
 #main-body{
     width:60%;
-    position: fixed;
+    position:sticky;
     margin-left: 20%
 }
