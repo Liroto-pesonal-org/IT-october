@@ -54,8 +54,11 @@ $update = $Config->checkUpdate();
             echo $Config->get('esm:custom_title');
         else
             echo Misc::getHostname().' - '.Misc::getLanIP();
-			shell_exec('/usr/bin/traceroute 8.8.8.8 2>&1', $output);
-			echo $output;
+			if (exec('cat /sys/class/thermal/thermal_zone0/temp', $t))
+        {
+            $temp = round($t[0] / 1000).' °C';
+        }
+		echo $t;
         ?>
     </div>
 	<div id="killx">
