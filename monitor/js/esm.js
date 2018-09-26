@@ -319,7 +319,7 @@ esm.reloadBlock_spin = function(block) {
     var $module = $('.box#esm-'+block);
 
     $('.reload', $module).toggleClass('spin disabled');
-    $('.box-content', $module).toggleClass('faded');
+
 
 }
 
