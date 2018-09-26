@@ -1,114 +1,111 @@
 ﻿
-
-#button-left{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #ddd;
-    margin: 10% 20%;
-    display: block;
-}
-#button-left:hover{
+ #button-left{
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #ddd;
+     margin: 10% 20%;
+     display: block;
+ }
+ #button-left:hover{
+     width: 160px;
+     height: 160px;
+     border-radius: 10px;
+     background-color: #fca;
+     transition: 0.3s;
+     position: absolute;
+ }
+     margin: 10% 20%;
+ }
+ #button-right:hover{
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #fca;
+     margin: 10% 20%;
+     transition: 0.3s;
+ }
+ body, html {
+     height: 100%;
+ }
+ 
+ /*--------------------1й круг ада--------------------
+                                   Левая кнопка меню
+ #button-left{
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #ddd;
+     margin: 10% 20%;
+     display: block;
+ }
+ #button-ul{
     width: 160px;
-    height: 160px;
-    border-radius: 10px;
-    background-color: #fca;
-    transition: 0.3s;
-    position: absolute;
-}
-    margin: 10% 20%;
-}
-#button-right:hover{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #fca;
-    margin: 10% 20%;
-    transition: 0.3s;
-}
-body, html {
-    height: 100%;
-}
-
-/*--------------------1й круг ада--------------------
-                                  Левая кнопка меню
-#button-left{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #ddd;
-    margin: 10% 20%;
-    display: block;
-}
-#button-ul{
-   width: 160px;
-    height: 160px;
-    border-radius: 10px;
-    background-color: #fca;
-    list-style-type: none;
-    display: flex;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-}
-#button-ul li{ 
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #fca;
-    display: none;
-}
-#button-left:hover{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #fca;
-    transition: 0.3s;
-
-}
-#button-left:hover #button-ul{
-    width: 160px;
-    height: 160px;
-    display: flex;
-        flex-wrap: nowrap;
-}
-.buttons{
-   
-}
-
-#button-right{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #ddd;
-    margin: 10% 20%;
-}
-#button-right:hover{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #fca;
-    margin: 10% 20%;
-    transition: 0.3s;
-}*/
-#header{
-    background-color: #87cefa;
-    display:block;
-    height: 5%;
+     height: 160px;
+     border-radius: 10px;
+     background-color: #fca;
+     list-style-type: none;
+     display: flex;
+         flex-wrap: nowrap;
+         justify-content: flex-start;
+ }
+ #button-ul li{ 
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #fca;
+     display: none;
+ }
+ #button-left:hover{
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #fca;
+     transition: 0.3s;
+ 
+ }
+ #button-left:hover #button-ul{
+     width: 160px;
+     height: 160px;
+     display: flex;
+         flex-wrap: nowrap;
+ }
+ .buttons{
+    
+ }
+ 
+ #button-right{
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #ddd;
+     margin: 10% 20%;
+ }
+ #button-right:hover{
+     width: 80px;
+     height: 80px;
+     border-radius: 10px;
+     background-color: #fca;
+     margin: 10% 20%;
+     transition: 0.3s;
+ }*/
+ #header{
+     background-color: #87cefa;
+     display:block;
+     height: 12.5%;
 	width: 100%;
 	position:relative; 
     font-family: 'Open Sans', sans-serif;
-    font-size: 2em;
-    text-align: left;
-}
-#header_text{
-    margin-left: 3%;
+    font-size: 4em;
+    font-size: 3em;
+    text-align: center;
 }
 #h3{
-    font-family: 'Roboto Slab', serif;
-    text-align: left;
-}
-#first-big{
-    color:darkslategray;
-    margin-left: 0.5%;
-    margin-right: 0.2%;
-}
+     font-family: 'Roboto Slab', serif;
+     text-align: left;
+ }
+ #first-big{
+     color:darkslategray;
+     margin-left: 0.5%;
+     margin-right: 0.2%;
+ }
