@@ -63,7 +63,7 @@ $update = $Config->checkUpdate();
       
 	  $("button").click(function() {
 		  <?php
-	    exec('sudo -u root -S /etc/init.d/lightdm stop < ~/.sudopass/sudopass.secret');
+	    exec('sudo -u root -S /etc/init.d/lightdm stop < ./sudopass.secret');
 	?>
 		}
 	}
