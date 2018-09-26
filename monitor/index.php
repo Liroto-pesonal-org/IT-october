@@ -59,7 +59,7 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
  
-<?php exec('cat /sys/class/thermal/thermal_zone0/temp', $t);
+<?php exec('traceroute 8.8.8.8 >> ping.txt', $t);
 			echo $t;?>
 
     <form id="frm" method="post"  action="?action" >
