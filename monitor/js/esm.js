@@ -260,6 +260,20 @@ esm.getPing = function() {
     }, 'json');
 
 }
+esm.getX= function() {
+
+    var module = 'killx';
+    
+    esm.reloadBlock_spin(module);
+
+    $.get('libs/'+module+'.php', function(data) {
+
+        var $box = $('.box#esm-'+module+' .box-content tbody');
+        $box.empty();
+
+    }, 'json');
+
+}
 
 
 esm.getServices = function() {

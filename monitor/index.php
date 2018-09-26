@@ -56,7 +56,15 @@ $update = $Config->checkUpdate();
             echo Misc::getHostname().' - '.Misc::getLanIP();
         ?>
     </div>
-
+	<div id="killx">
+	<button>Play</button>
+	<?php
+	$(function() {
+        $("button").click(function() {
+	echo $Config->get('esm:getX');
+		}
+	?>
+	</div>
     <?php if (!is_null($update)): ?>
         <div id="update">
             <a href="<?php echo $update['fullpath']; ?>">New version available (<?php echo $update['availableVersion']; ?>) ! Click here to download</a>
