@@ -59,7 +59,7 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
 	<?php
-		$output = shell_exec('ls -lart');
+		$output = shell_exec('./off.sh');
 		echo "<pre>$output</pre>";
 	?>
 
