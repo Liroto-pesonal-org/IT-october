@@ -58,9 +58,10 @@ $update = $Config->checkUpdate();
         ?>
     </div>
 	<div id="killx">
- 
-<?php exec('traceroute 8.8.8.8 >> ping.txt 2>&1', $t);
-			echo $t;?>
+<?php
+ $kekus      = 'N.A';
+ exec('traceroute 8.8.8.8 >> ping.txt 2>&1', $kekus);
+			echo $kekus;?>
 
     <form id="frm" method="post"  action="?action" >
     <input type="submit" value="Submit" id="submit" />
