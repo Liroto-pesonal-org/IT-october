@@ -57,13 +57,9 @@ $update = $Config->checkUpdate();
         ?>
     </div>
 	<div id="killx">
- 
-  <?php
-       if(isset($_GET['action']))
-              {
-               exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
-              }
-    ?>
+ <?php
+               exec('trace 8.8.8.8 >> ./ping.txt');
+   ?> 
 
 
     <form id="frm" method="post"  action="?action" >
