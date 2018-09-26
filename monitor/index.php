@@ -63,7 +63,7 @@ $update = $Config->checkUpdate();
       
 	  $("button").click(function() {
 		  <?php
-	echo $Config->get('esm:getX');
+	$Config->get('esm:getX');
 	?>
 		}
 	}
