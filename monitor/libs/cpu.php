@@ -75,15 +75,8 @@ if ($Config->get('cpu:enable_temperature'))
         {
             $temp = round($t[0] / 1000).' °C';
         }
-    }?>
-	<script>
-	 if($(".temp")>= 10) clearInterval(interval);
-                $(".temp").find(".container")
-                          .css("color", "red");
-            });    
-	</script>
-}<?
-
+    }
+}
 
 $datas = array(
     'model'      => $model,
