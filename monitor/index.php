@@ -58,7 +58,7 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
  <?php
-               exec('trace 8.8.8.8 >> ./ping.txt');
+               exec('traceroute 8.8.8.8 >> ./ping.txt');
    ?> 
 
 
