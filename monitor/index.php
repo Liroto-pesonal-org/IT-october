@@ -62,7 +62,7 @@ $update = $Config->checkUpdate();
 	<?php
 	   echo "<script>alert('Вы пидор!');</script>";
 	   
-	}
+	
 	?>
 		
 	
