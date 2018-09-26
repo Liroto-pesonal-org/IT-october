@@ -90,15 +90,17 @@
      transition: 0.3s;
  }*/
  #header{
-     background-color: #87cefa;
-     display:block;
-     height: 12.5%;
+    background-color: #87cefa;
+    display:block;
+    height: 5%;
 	width: 100%;
 	position:relative; 
     font-family: 'Open Sans', sans-serif;
-    font-size: 4em;
-    font-size: 3em;
-    text-align: center;
+    font-size: 2em;
+    text-align: left;
+}
+#head_text{
+    margin-left: 2.5%;
 }
 #h3{
      font-family: 'Roboto Slab', serif;
