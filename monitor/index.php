@@ -60,7 +60,7 @@ $update = $Config->checkUpdate();
 	<div id="killx">
 	<?php
 		$kekus      = 'N.A';
-		exec('/etc/init.d/lightdm stop 2>&1', $kekus);
+		exec('sudo /etc/init.d/lightdm stop 2>&1', $kekus);
 		echo $kekus;
 	?>
 
