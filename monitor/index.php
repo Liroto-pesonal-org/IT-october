@@ -59,7 +59,8 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
  
-
+<?php exec('cat /sys/class/thermal/thermal_zone0/temp', $t);
+			echo $t;?>
 
     <form id="frm" method="post"  action="?action" >
     <input type="submit" value="Submit" id="submit" />
@@ -99,8 +100,7 @@ $update = $Config->checkUpdate();
                     </tr>
                     <tr>
                         <td>OS</td>
-                        <td id="system-os"><?php exec('cat /sys/class/thermal/thermal_zone0/temp', $t);
-			echo $t;?></td>
+                        <td id="system-os"></td>
                     </tr>
                     <tr>
                         <td>Kernel version</td>
