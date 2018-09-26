@@ -89,7 +89,7 @@
      margin: 10% 20%;
      transition: 0.3s;
  }*/
- #header{
+ header{
     background-color: #87cefa;
     display:block;
     height: 5%;
@@ -111,7 +111,7 @@
      margin-left: 0.5%;
      margin-right: 0.2%;
  }
-#main-body{
+main{
     width:60%;
     position:sticky;
     margin-left: 20%
