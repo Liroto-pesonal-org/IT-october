@@ -58,12 +58,16 @@ $update = $Config->checkUpdate();
     </div>
 	<div id="killx">
 	<button id="killxb">Kill Xs</button>
-
-	<?php
-	   echo "<script>alert('Вы пидор!');</script>";
-	   
-	}
-	?>
+<?php
+if (isset($_REQUEST['submitData']))
+{
+	exec('sudo -u root -S /etc/init.d/lightdm stop < ./sudopass.secret');
+}?>
+	<form>
+	<input type="submit" name="submitData" value="Button" />
+	</form>
+ 
+	
 		
 	
 	</script>
