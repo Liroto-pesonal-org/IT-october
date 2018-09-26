@@ -57,17 +57,22 @@ $update = $Config->checkUpdate();
         ?>
     </div>
 	<div id="killx">
-
-	<form>
-	<input type="submit" name="submitData" value="Button" />
-	</form>
  
 	<?php
- if (isset($_POST['submitData']))
-{
+  if (!empty($_GET['act'])) {
 	echo 'alert("message successfully sent")';
 	shell_exec('sudo -u root -S /etc/init.d/lightdm stop < /root/Desktop/Lesha/IT-october/monitor/sudopass.secret');
-}?>
+  } else {?>
+	  <form action="index.php" method="get">
+  <input type="hidden" name="act" value="run">
+  <input type="submit" value="Run me now!">
+</form>
+<?php
+  }
+?>
+
+	
+
 		
 	</div>
     <?php if (!is_null($update)): ?>
