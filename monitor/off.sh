@@ -1,1 +1,1 @@
-service lightdm start
+sudo init 3
