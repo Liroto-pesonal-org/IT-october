@@ -68,7 +68,7 @@ html {
     padding-top: 45%;
 }
 #uparrow:hover{
-    color:red;
+    transform: scale(150);
 }
 #nav{
     text-decoration: none !important;
