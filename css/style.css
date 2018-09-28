@@ -13,16 +13,21 @@
     object-position: center;
     
 }
+#burger{
+    position: fixed;
+    
+    
+}
 #nav{
     text-decoration: none !important;
     font-size: 1.3em !important;
 }
 ul{
-    list-style: none;
+    list-style:none;
 }
 li{
     float: left;
-    padding: 15px;
+    padding: 1%;
     font-family: 'Play',helvetica,sans-serif;
     position: relative;
     background-color: azure;
@@ -32,17 +37,16 @@ li a{
     color: black;
 }
 li:hover a{
-    color: #87cefa;
+    color: black;
 }
 li:hover{
     background-color: #ffbeaa;
-    color: dodgerblue;
+    color: black    ;
     cursor: pointer;
 }
 ul li ul{
     position: absolute;
     transition-duration: 0.5s;
-    margin-top: 1rem;
     display: none;
 }
 ul li:hover > ul,
