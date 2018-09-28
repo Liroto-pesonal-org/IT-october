@@ -4,9 +4,7 @@
     text-align: center;
     position: fixed;
     width: 100%;
-    height: 10%;
-    
-    
+    height: 10%; 
 }
 #head-text{
     font-size: 2vw;
@@ -17,11 +15,9 @@
     
 }
 #burger{
-    
     position: fixed;
-    padding: 1.5%;
-    
-    
+    max-width: 100%;
+    height: auto;
 }
 #nav{
     text-decoration: none !important;
