@@ -9,7 +9,9 @@
     font-size: 4em;
     font-family: 'Open Sans', sans-serif;
     color: #f5f6fa;
-    text-align: center;
+    text-align: center;   
+    object-position: center;
+    
 }
 #nav{
     text-decoration: none !important;
