@@ -20,6 +20,9 @@
     padding-left: 95%;
     padding-top: 25%;
 }
+rightarrow{
+    background-color: aqua;
+}
 #nav{
     text-decoration: none !important;
     font-size: 1.3em !important;
@@ -28,20 +31,25 @@ ul{
     list-style:none;
     
 }
-li{
-    float: left;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #95afc0;
-    transition-duration: 0.3s;
-}
 li a{
     color: black;
 }
 li:hover a{
     color: black;
 }
-li:hover{
+#bli:hover{
     background-color: #ffbeaa;
+    color: black;
+    cursor: pointer;
+    float: left;
+}
+#burger:hover{
+    background-color: #ffbeaa;
+    color: black;
+    cursor: pointer;
+    float: left;
+}
+li:hover{
     color: black;
     cursor: pointer;
 }
