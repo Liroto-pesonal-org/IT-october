@@ -1,13 +1,15 @@
 #header{
-    background-color: #c7eede;
-    font-family: 'Roboto Slab',helvetica,sans-serif;
+    background-color: #60a3bc;
+    font-family: 'Roboto Slab',sans-serif;
     padding: 2%;
     text-align: center;
-    border-top: 5px solid grey;
+    border-top: 0.3vw solid #b2bec3;
 }
 #head-text{
     font-size: 4em;
-    text-shadow: 3px 5px 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f6fa;
+    text-align: center;
 }
 #nav{
     text-decoration: none !important;
@@ -52,13 +54,12 @@ ul li ul li{
 }
 #first-big{
     color: #101050;
-    font-family: 'Roboto Condensed',helvetica,sans-serif;
+    font-family: 'Roboto Slab' 100, sans-serif;
 }
 #main{
-    padding: 2%; 
-}
-.autoplay{
-    margin-left: 10%;
+    padding-left: 20%; 
+    padding-right: 20%;
+    padding-top: 0.5%;
 }
 .slide{
     border: 3px solid #cedbae;
