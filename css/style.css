@@ -6,29 +6,29 @@
     border: 3px solid grey;
 }
 #head-text{
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 3px 5px 5px;
 }
 #nav{
     text-decoration: none !important;
-    font-size: 1em !important;
+    font-size: 1.3em !important;
 }
 ul{
     list-style: none;
 }
 li{
-    border: 1px solid red;
     float: left;
     padding: 15px;
     font-family: 'Play',helvetica,sans-serif;
     position: relative;
+    background-color: azure;
     transition-duration: 0.3s;
 }
 li a{
-    color: cornsilk;
+    color: black;
 }
 li:hover a{
-    color: coral;
+    color: #87cefa;
 }
 li:hover{
     background-color: #ffbeaa;
@@ -39,7 +39,6 @@ ul li ul{
     position: absolute;
     transition-duration: 0.5s;
     margin-top: 1rem;
-    left: 0;
     display: none;
 }
 ul li:hover > ul,
@@ -50,4 +49,7 @@ ul li ul:hover{
 }
 ul li ul li{
     width: 100%;
+}
+#first-big{
+    font-family: 'Roboto Condensed',helvetica,sans-serif;
 }
