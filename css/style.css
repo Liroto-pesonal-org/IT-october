@@ -3,7 +3,7 @@
     font-family: 'Roboto Slab',helvetica,sans-serif;
     padding: 2%;
     text-align: center;
-    border: 3px solid grey;
+    border-top: 5px solid grey;
 }
 #head-text{
     font-size: 4em;
@@ -51,5 +51,18 @@ ul li ul li{
     width: 100%;
 }
 #first-big{
+    color: #101050;
     font-family: 'Roboto Condensed',helvetica,sans-serif;
+}
+#main{
+    padding: 2%; 
+}
+.autoplay{
+    margin-left: 10%;
+}
+.slide{
+    border: 3px solid #cedbae;
+    padding: 0 !important;
+    width: 1024px;
+    height: 560px;
 }
