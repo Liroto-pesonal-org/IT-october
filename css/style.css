@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 #header{
     background-color: #60a3bc;
     font-family: 'Roboto Slab',sans-serif;
