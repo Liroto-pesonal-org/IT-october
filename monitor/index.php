@@ -39,7 +39,7 @@ $update = $Config->checkUpdate();
     });
     </script>
 </head>
-
+ 
 <body class="theme-<?php echo $Config->get('esm:theme'); ?>">
 
 <nav role="main">
