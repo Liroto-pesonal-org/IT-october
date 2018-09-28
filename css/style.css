@@ -2,7 +2,7 @@
 html {
   scroll-behavior: smooth;
 } 
-@media (min-width: 1281px) {
+@media (min-width: 1337px) {
   
  #header{
     background-color: #60a3bc;
@@ -21,7 +21,7 @@ html {
     
 }
 }
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1280px) and (max-width: 1336px) {
   
   #header{
     background-color: red;
