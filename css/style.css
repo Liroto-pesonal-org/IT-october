@@ -4,7 +4,7 @@
     padding: 2%;
     text-align: center;
     border-top: 0.3vw solid #b2bec3;
-    position: fixed;
+    position:sticky;
 }
 #head-text{
     font-size: 4em;
