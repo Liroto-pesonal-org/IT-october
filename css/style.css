@@ -20,8 +20,19 @@
     padding-left: 95%;
     padding-top: 25%;
 }
-rightarrow{
-    background-color: aqua;
+
+#rightarrow{
+    background-color: white; 
+    padding-bottom: 15%;
+}
+#upa{
+    float: right;
+    position:fixed;
+    padding-left: 95%;
+    padding-top: 45%;
+}
+#uparrow:hover{
+    color:red;
 }
 #nav{
     text-decoration: none !important;
