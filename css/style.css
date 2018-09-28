@@ -15,8 +15,10 @@
     
 }
 #ar{
-   position: fixed;
-   vertical-align: middle;
+    float: right;
+    position:fixed;
+    padding-left: 95%;
+    padding-top: 25%;
 }
 #nav{
     text-decoration: none !important;
