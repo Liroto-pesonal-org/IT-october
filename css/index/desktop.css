@@ -82,8 +82,9 @@ ul li ul li{
 #main{
     padding-left: 20%; 
     padding-right: 20%;
-    padding-top: 5.2%;
+    padding-top: 7.2%;
     position:static;
+    text-align: justify;
 }
 .slide{
     padding: 0 !important;
