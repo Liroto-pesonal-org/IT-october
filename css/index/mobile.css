@@ -1,0 +1,148 @@
+
+html {
+  scroll-behavior: smooth;
+} 
+@media (min-width: 1367px) {
+  
+ #header{
+     background-color: #60a3bc;
+    font-family: 'Roboto Slab',sans-serif;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 10%; 
+}
+  #head-text{
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f6fa;
+    text-align: center;   
+    object-position: center;
+    
+}
+    #upa{
+    float: right;
+    position:fixed;
+    padding-left: 80%;
+    padding-top: 45%;
+}
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+  
+  #header{
+     background-color: #60a3bc;
+    font-family: 'Roboto Slab',sans-serif;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 10%; 
+}
+  #upa{
+    float: right;
+    position:fixed;
+    padding-left: 80%;
+}
+}
+
+#ar{
+    float: right;
+    position:fixed;
+    padding-left: 95%;
+    padding-top: 25%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #header{
+    background-color: #60a3bc;
+    font-family: 'Roboto Slab',sans-serif;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 5%; 
+}
+  #rightarrow{
+    background-color: white; 
+    padding-bottom: 15%;
+}
+
+  #head-text{
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f6fa;
+    text-align:center;   
+    object-position: center;
+    
+}
+}
+#rightarrow{
+    background-color: white; 
+    padding-bottom: 15%;
+}
+#upa{
+    float: right;
+    position:fixed;
+    padding-left: 95%;
+    padding-top: 45%;
+}
+#uparrow:hover{
+    transform: scale(1.5);
+}
+#nav{
+    text-decoration: none !important;
+    font-size: 1.3em !important;
+}
+ul{
+    list-style:none;
+    
+}
+li a{
+    color: black;
+}
+li:hover a{
+    color: black;
+}
+#bli:hover{
+    background-color: #ffbeaa;
+    color: black;
+    cursor: pointer;
+    float: left;
+}
+#burger:hover{
+    background-color: #ffbeaa;
+    color: black;
+    cursor: pointer;
+    float: left;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+ul li ul{
+    position: absolute;
+    transition-duration: 0.5s;
+    display: none;
+}
+ul li:hover > ul,
+ul li ul:hover{
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+ul li ul li{
+    width: 100%;
+}
+#first-big{
+    color: #101050;
+    font-family: 'Roboto Slab' 150, sans-serif;
+}
+#main{
+    padding-left: 20%; 
+    padding-right: 20%;
+    padding-top: 5.2%;
+    position:static;
+}
+.slide{
+    
+    padding: 0 !important;
+    width: 1024px;
+    height: 560px;
+}
