@@ -87,6 +87,7 @@ ul li ul li{
     padding-top: 7.2%;
     position:static;
     text-align: justify;
+    word-break: break-all;
 }
 .slide{
     padding: 0 !important;
