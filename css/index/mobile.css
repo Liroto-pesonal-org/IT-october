@@ -4,7 +4,7 @@
     text-align: center;
     position: fixed;
     width: 100%;
-    height: 10%; 
+    height: 5%; 
 }
 #head-text{
     font-size: 2vw;
@@ -82,9 +82,9 @@ ul li ul li{
     font-family: 'Roboto Slab' 150, sans-serif;
 }
 #main{
-    padding-left: 20%; 
-    padding-right: 20%;
-    padding-top: 5.2%;
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top: 2.7%;
     position:static;
 }
 .slide{
