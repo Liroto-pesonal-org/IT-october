@@ -18,6 +18,8 @@
     position:fixed;
     padding-left: 80%;
     padding-top: 45%;
+    display: none;
+    visibility: hidden;
 }
 #ar{
     float: right;
