@@ -51,9 +51,12 @@ li:hover a{
     cursor: pointer;
     float: left;
 }
-#burger {
-    margin-top:40%
-    margin-left:90%
+#burger{
+    float: left;
+    padding: 0;
+}
+#burg{
+    float: left;
 }
 #burger:hover{
     background-color: #ffbeaa;

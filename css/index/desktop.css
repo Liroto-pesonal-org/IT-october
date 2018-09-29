@@ -61,6 +61,13 @@ li:hover{
     color: black;
     cursor: pointer;
 }
+#burger{
+    float: left;
+    padding: 0;
+}
+#burg{
+    float: left;
+}
 ul li ul{
     position: absolute;
     transition-duration: 0.5s;
