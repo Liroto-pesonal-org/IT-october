@@ -61,14 +61,12 @@ ul li ul li{
 #main{
     padding: 2%; 
 }
-.autoplay{
-    margin-left: 10%;
-}
 .slide{
     border: 3px solid #cedbae;
     padding: 0 !important;
     width: 1024px;
     height: 560px;
+    margin: auto;
 }
 #footer{
     font-family: 'Play',helvetica,sans-serif;
