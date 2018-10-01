@@ -27,10 +27,6 @@ li{
 li a{
     color: black;
 }
-a:hover:after {
-    content: url(img/circle.jpg); /* no need for qoutes */
-    display: block;
-}
 li:hover a{
     color: #87cefa;
 }
@@ -79,19 +75,72 @@ ul li ul li{
     position: relative;
     height: 90px;
 }
-.icons{
+.icons1{
     margin-left: 13%;
     width: 64px;
     height: 64px;
     border: 5px solid #93de12;
     border-radius: 15px;
 }
-.icons:hover{
+.icons1:hover{
     width: 90px;
     height: 100%;
     border: 8px solid #cefc21;
     transition: 0.3s;
 }
+.icons2{
+    margin-left: 13%;
+    width: 64px;
+    height: 64px;
+    border: 5px solid #93de12;
+    border-radius: 15px;
+}
+.icons2:hover{
+    width: 90px;
+    height: 100%;
+    border: 8px solid #cefc21;
+    transition: 0.3s;
+}
+.icons3{
+    margin-left: 13%;
+    width: 64px;
+    height: 64px;
+    border: 5px solid #93de12;
+    border-radius: 15px;
+}
+.icons3:hover{
+    width: 90px;
+    height: 100%;
+    border: 8px solid #cefc21;
+    transition: 0.3s;
+}
+.icons4{
+    margin-left: 13%;
+    width: 64px;
+    height: 64px;
+    border: 5px solid #93de12;
+    border-radius: 15px;
+}
+.icons4:hover{
+    width: 90px;
+    height: 100%;
+    border: 8px solid #cefc21;
+    transition: 0.3s;
+}
+.icons5{
+    margin-left: 13%;
+    width: 64px;
+    height: 64px;
+    border: 5px solid #93de12;
+    border-radius: 15px;
+}
+.icons5:hover{
+    width: 90px;
+    height: 100%;
+    border: 8px solid #cefc21;
+    transition: 0.3s;
+}
+
 #footer-text{
     text-align: center;
     font-size: 1.5em;
