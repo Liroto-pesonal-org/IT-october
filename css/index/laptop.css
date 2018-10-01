@@ -13,23 +13,7 @@
     text-align: center;   
     object-position: center;
 }
-#upa{
-    float: right;
-    position:fixed;
-    padding-left: 93%;
-    padding-top: 40%;
-}
-#ar{
-    float: right;
-    position:fixed;
-    padding-left: 93%;
-    padding-top: 25%;
-}
-#rightarrow{
-    background-color: white; 
-    padding-bottom: 15%;
-}
-    #uparrow:hover{
+#uparrow:hover{
     transform: scale(1.5);
 }
 #nav{

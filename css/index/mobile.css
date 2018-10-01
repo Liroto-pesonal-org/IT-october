@@ -21,17 +21,7 @@
     display: none;
     visibility: hidden;
 }
-#ar{
-    float: right;
-    position:fixed;
-    padding-left: 95%;
-    padding-top: 25%;
-}
-#rightarrow{
-    background-color: white; 
-    padding-bottom: 15%;
-}
-    #uparrow:hover{
+#uparrow:hover{
     transform: scale(1.5);
 }
 #burger{

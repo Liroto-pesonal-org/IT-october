@@ -13,14 +13,7 @@
     text-align: center;   
     object-position: center;
 }
-#uparrow{
-    float:right;
-}
-#rightarrow{
-    background-color: white; 
-    padding-bottom: 15%;
-}
-    #uparrow:hover{
+#uparrow:hover{
     transform: scale(1.5);
 }
 #nav{
