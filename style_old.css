@@ -1,0 +1,109 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+} 
+body{ 
+    background-color: #dddddd; 
+} 
+#left{ 
+    width: 70px; 
+    height: 70px; 
+    border-radius: 10px; 
+    background-color: #dddddd; 
+    float: left; 
+} 
+#left:hover{ 
+    width: 200px; 
+    height: 70px; 
+    border-radius: 10px; 
+    background-color: #fcceae; 
+    float: left; 
+    transition: 0.3s;
+    cursor: pointer;
+} 
+#right{ 
+    width: 70px; 
+    height: 70px; 
+    border-radius: 10px; 
+    background-color: #dddddd; 
+    float: right; 
+} 
+#right:hover{ 
+    width: 70px; 
+    height: 70px; 
+    border-radius: 10px; 
+    /*background: url(img/Right.png);*/ 
+    background-color: #fcceae; 
+    float: right; 
+    transition: 0.3s;
+    cursor: pointer;
+} 
+#header{ 
+    background-color: #87cefa; 
+    padding: 15px; 
+    font-size: 30px; 
+    font-family: 'Roboto Slab', serif; 
+    text-align: center; 
+    text-shadow: 5px 3px 8px black; 
+} 
+#first{ 
+    padding: 10px; 
+    text-align: justify; 
+    font-family: 'Play', sans-serif; 
+} 
+#inFirstImg{ 
+    text-align: center; 
+} 
+.inFirstImg{ 
+    border: 3px solid gray; 
+    margin: 5px; 
+    width: 350px; 
+    height: 350px; 
+} 
+#second{ 
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-align: justify; 
+    font-family: 'Play', sans-serif; 
+} 
+#up{ 
+    padding: 15px; 
+    background-color: #ffffff; 
+    text-align: center;  
+    font-family: 'Play', sans-serif; 
+} 
+#inSecondImgleft{ 
+    float: left; 
+} 
+.inSecondImgleft{ 
+    border: 3px solid gray; 
+    margin: 5px; 
+    width: 500px; 
+    height: 500px; 
+}
+#inSecondImgright{ 
+    float: right; 
+} 
+
+.inSecondImgright{ 
+    border: 3px solid gray; 
+    margin: 5px; 
+    width: 750px; 
+    height: 412px; 
+}
+/*-------------------Слайдер-------------------*/
+#slick{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    width: 800px;
+    height: 500px;
+    background: #ccc;
+    box-shadow: 30px 20px 50px;
+    border: 5px solid black;
+}
+.slides{
+    width: 800px;
+    height: 490px;
+}
