@@ -16,18 +16,6 @@
 #uparrow{
     float:right;
 }
-#upa{
-    float: right;
-    position:fixed;
-    padding-left: 95%;
-    padding-top: 45%;
-}
-#ar{
-    float: right;
-    position:fixed;
-    padding-left: 95%;
-    padding-top: 25%;
-}
 #rightarrow{
     background-color: white; 
     padding-bottom: 15%;
