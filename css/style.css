@@ -66,3 +66,36 @@ ul li ul li{
     width: 1024px;
     height: 560px;
 }
+#footer{
+    font-family: 'Play',helvetica,sans-serif;
+    width: 100%;
+    height: 280px;
+    background-color: #defc99;
+    
+}
+#picks{
+    position: relative;
+    height: 90px;
+}
+.icons{
+    margin-left: 13%;
+    width: 64px;
+    height: 64px;
+    border: 5px solid #93de12;
+    border-radius: 15px;
+}
+.icons:hover{
+    width: 90px;
+    height: 100%;
+    border: 8px solid #cefc21;
+    transition: 0.3s;
+}
+#footer-text{
+    text-align: center;
+    font-size: 1.5em;
+}
+#down-text{
+    opacity: 0.3;
+    font-size: 5em;
+    text-align: center;
+}
