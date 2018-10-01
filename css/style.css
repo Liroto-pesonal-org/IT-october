@@ -83,10 +83,7 @@ ul li ul li{
     border-radius: 15px;
 }
 .icons1:hover{
-    width: 90px;
-    height: 100%;
-    border: 8px solid #cefc21;
-    transition: 0.3s;
+     transform: scale(1.5);
 }
 .icons2{
     margin-left: 13%;
@@ -96,10 +93,7 @@ ul li ul li{
     border-radius: 15px;
 }
 .icons2:hover{
-    width: 90px;
-    height: 100%;
-    border: 8px solid #cefc21;
-    transition: 0.3s;
+    transform: scale(1.5);
 }
 .icons3{
     margin-left: 13%;
@@ -109,10 +103,7 @@ ul li ul li{
     border-radius: 15px;
 }
 .icons3:hover{
-    width: 90px;
-    height: 100%;
-    border: 8px solid #cefc21;
-    transition: 0.3s;
+     transform: scale(1.5);
 }
 .icons4{
     margin-left: 13%;
@@ -122,10 +113,7 @@ ul li ul li{
     border-radius: 15px;
 }
 .icons4:hover{
-    width: 90px;
-    height: 100%;
-    border: 8px solid #cefc21;
-    transition: 0.3s;
+     transform: scale(1.5);
 }
 .icons5{
     margin-left: 13%;
@@ -135,10 +123,7 @@ ul li ul li{
     border-radius: 15px;
 }
 .icons5:hover{
-    width: 90px;
-    height: 100%;
-    border: 8px solid #cefc21;
-    transition: 0.3s;
+    transform: scale(1.5);
 }
 
 #footer-text{
