@@ -27,6 +27,10 @@ li{
 li a{
     color: black;
 }
+a:hover:after {
+    content: url(img/circle.jpg); /* no need for qoutes */
+    display: block;
+}
 li:hover a{
     color: #87cefa;
 }
