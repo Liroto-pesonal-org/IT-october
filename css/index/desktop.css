@@ -13,6 +13,9 @@
     text-align: center;   
     object-position: center;
 }
+#uparrow{
+    float:right;
+}
 #upa{
     float: right;
     position:fixed;
